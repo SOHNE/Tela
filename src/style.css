@@ -1,0 +1,10 @@
+/*
+ * Visible focus outline for D-pad navigation on Tela Brasil.
+ * The polyfill picks the next focus candidate; this makes it visible.
+ * Tweak here without touching JS.
+ */
+:focus {
+  outline: 3px solid #ffd700 !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+}

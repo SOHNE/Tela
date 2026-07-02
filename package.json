@@ -1,0 +1,22 @@
+{
+  "name": "@zschzen/telabrew",
+  "appName": "TelaBrew",
+  "version": "0.1.0",
+  "description": "TizenBrew module that opens Tela Brasil (telabrasil.cultura.gov.br) with TV D-pad spatial navigation.",
+  "packageType": "mods",
+  "websiteURL": "https://telabrasil.cultura.gov.br/",
+  "main": "userScript.js",
+  "author": "zschzen",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "repository": {
+    "url": "https://github.com/zschzen/TelaBrew"
+  },
+  "files": [
+    "userScript.js",
+    "LICENSE",
+    "README.md"
+  ]
+}
